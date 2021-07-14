@@ -1,0 +1,116 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
+   
+}
+.header{
+    display: flex;
+    font-size: 40px;
+    height: 677px;
+    background-color: #2D25A0;
+    color: white;
+    
+}
+.btn{
+    width: 168px;
+    height: 64px;
+    margin-left: 8px;
+    font-size: 20px;
+   background-color: #E02C6D;
+   font-weight: 500;
+    color: white;
+}
+    
+.half-banner{
+   width: 40%;
+   padding: 50px;
+   padding-left: 100px;
+   padding-top: 8%;
+   
+}
+.half-banner img{
+  
+width: 556.01px;
+height: 438px;
+left: 1292.01px;
+top: calc(50% - 438px/2 - 1514px);
+}
+.football:hover{
+    transform: rotate(60deg);
+}
+.top-players{
+    width: 700px;
+    display: flex;
+    justify-content: center; 
+
+}
+.container{
+       height: 103em;
+       
+}
+
+
+.players{ 
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     width: 330px;
+     height: 474px;
+     top: 747px;
+     align-items: flex-start;
+     padding: 10px
+ 
+}
+.player{
+    margin-left: 30px;
+    margin-top: 27px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player p{
+    font-size: 15px;
+    font-weight: 300px;
+}
+footer{
+    position: absolute;
+    width: 483.87px;
+    height: 100px;
+    left: 475px;
+    top: 2364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.icon .fab{
+    font-size: 26px ;
+    margin-left: 14px;
+    margin-top: -10px;
+
+}
+ /* @media all and (min-width: 600px) {
+   
+    /* .top-players{
+        flex-direction: column;} */
+   
+
+    /* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px)
+ {body{
+    background-color:gray;
+
+ }
+}

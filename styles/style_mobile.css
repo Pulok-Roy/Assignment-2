@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+   
+}
+/* <!-- header start --> */
+.container{
+       height: 313em;
+}
+
+.header{
+    background-color: #2D25A0;
+    color: white;
+    width: 400px;
+    height: 695px;
+    
+}
+
+.half-banner{
+    width: 278px;
+height: 138px;
+padding-left: 16px;
+padding-top: 8%;
+font-size: 22px;
+}
+
+.btn{
+    width: 150px;
+    height: 44px;
+    margin-left: 8px;
+    font-size: 20px;
+   background-color: #E02C6D;
+   font-weight: 500;
+    color: white;
+}
+
+.header img{
+    width: 329px;
+   height: 259.17px;
+   margin-top: 134px;
+}
+
+.football:hover{
+    transform: rotate(60deg);
+}
+/* <!-- header end --> */
+
+/* players */
+.top-players{
+    display: flex;
+    height: 474px;
+    width: 380px;
+    justify-content: center; 
+    margin-left: 0px;
+}
+
+.player{
+    margin-left: 20px;
+    margin-top: 27px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    
+}
+
+.top-players img{
+    width: 100%;
+}
+
+/* Players */
+
+footer{
+    width: 483.87px;
+    height: 100px;
+    left: 475px;
+    top: 2364px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    
+}
+
+ footer{
+    margin-left: 30px;
+    }   
+
+footer img{
+    width: 150px;
+    height: 63px;
+}
+
+@media all and (min-width:600px) {
+    .top-players {flex-direction: column;
+}
+}
